@@ -21,7 +21,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                Let's collaborate to achieve excellence together.
+                Let&apos;s collaborate to achieve excellence together.
               </p>
               <div className="-mx-3 flex items-center">
                 <a

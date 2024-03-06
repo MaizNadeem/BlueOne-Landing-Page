@@ -16,7 +16,7 @@ const CallToAction = () => {
                   </span>
                 </h2>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                  Whether it's optimising operations, enhancing guest experiences,
+                  Whether it&apos;s optimising operations, enhancing guest experiences,
                   managing assets, or ensuring impeccable housekeeping services,
                   our tailored solutions are designed for your success.
                 </p>
@@ -24,7 +24,7 @@ const CallToAction = () => {
                   href="#contact"
                   className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                 >
-                  Let's Discuss
+                  Let&apos;s Discuss
                 </Link>
               </div>
             </div>
