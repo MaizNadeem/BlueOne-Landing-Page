@@ -4,7 +4,7 @@ import Link from "next/link";
 const SingleClient = ({ client }) => {
   const { title, link, logo } = client;
   return (
-    <div className="ud-single-logo mb-5 mr-10 max-w-[140px]">
+    <div className="ud-single-logo max-w-[140px]">
       <Link href={link} target="_blank" rel="nofollow noopner">
         <Image
           src={logo}

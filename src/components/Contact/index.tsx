@@ -107,7 +107,7 @@ const Contact = () => {
       <div className="absolute left-0 top-0 -z-[1] h-full w-full dark:bg-dark"></div>
       <div className="absolute left-0 top-0 -z-[1] h-1/2 w-full bg-[#a6c5cf] dark:bg-dark-700 lg:h-[45%] xl:h-1/2"></div>
       <div className="container w-full flex-col items-center justify-center px-4">
-        <div className="-mx-4 flex w-full flex-col items-center justify-center">
+        <div className="flex w-full flex-col items-center justify-center">
           <div className="w-full px-4">
             <div className="ud-contact-content-wrapper">
               <div className="ud-contact-title mb-6">
