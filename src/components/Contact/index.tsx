@@ -91,14 +91,14 @@ const Contact = () => {
       setLoading(false);
 
       if (response.ok) {
-        alert("Email sent successfully!");
+        alert("We got your message! Sit back and relax. We will be in touch with you soon.");
       } else {
-        alert("Failed to send email. Please try again later.");
+        alert("Failed to send message. Please try again later.");
       }
     } catch (error) {
       console.error("Error sending email:", error);
       setLoading(false);
-      alert("Failed to send email. Please try again later.");
+      alert("Failed to send message. Please try again later.");
     }
   };
 

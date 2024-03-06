@@ -288,7 +288,7 @@ const Header = () => {
                   </span>
                 </button>
 
-                <Link
+                <a
                   href="#contact"
                   className={`ml-6 rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
                     sticky && pathUrl == "/"
@@ -301,7 +301,7 @@ const Header = () => {
                   }`}
                 >
                   Contact Us
-                </Link>
+                </a>
               </div>
             </div>
           </div>

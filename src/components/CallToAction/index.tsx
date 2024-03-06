@@ -20,12 +20,12 @@ const CallToAction = () => {
                   managing assets, or ensuring impeccable housekeeping services,
                   our tailored solutions are designed for your success.
                 </p>
-                <Link
+                <a
                   href="#contact"
                   className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                 >
                   Let&apos;s Discuss
-                </Link>
+                </a>
               </div>
             </div>
           </div>
