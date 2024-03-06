@@ -115,7 +115,7 @@ const Contact = () => {
                   CONTACT US
                 </span>
                 <h2 className="max-w-[800px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                  Ready to reclaim your time and turn your AirBnB into a
+                  Ready to reclaim your time and turn your Airbnb into a
                   hands-off haven?
                 </h2>
               </div>

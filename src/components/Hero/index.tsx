@@ -19,7 +19,7 @@ const Hero = () => {
                   BlueOne Hospitality Management
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  Making your hositng experience truly hands-off! <br />
+                  Making your hosting experience truly hands-off! <br />
                   Transform your Airbnb into a passive income machine.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
