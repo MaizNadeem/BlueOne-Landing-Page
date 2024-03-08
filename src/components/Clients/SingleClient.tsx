@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleClient = ({ client }) => {
-  const { title, link, logo } = client;
+  const { title, link, logo, invert } = client;
   return (
     <div className="ud-single-logo max-w-[140px]">
       <Link href={link} target="_blank" rel="nofollow noopner">
@@ -16,7 +16,7 @@ const SingleClient = ({ client }) => {
         <Image
           src={logo}
           alt={title}
-          className="hidden dark:block dark:invert"
+          className={`hidden dark:block ${invert? "dark:invert" : "" }`}
           width={140}
           height={40}
         />
