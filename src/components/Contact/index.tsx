@@ -91,7 +91,7 @@ const Contact = () => {
       setLoading(false);
 
       if (response.ok) {
-        alert("We got your message! Sit back and relax. We will be in touch with you soon.");
+        window.location.href = "/thankyou";
       } else {
         alert("Failed to send message. Please try again later.");
       }
