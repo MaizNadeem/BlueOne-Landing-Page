@@ -1,5 +1,7 @@
 "use client";
 
+import { GoogleTagManager } from "@next/third-parties/google";
+
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -37,6 +39,7 @@ export default function RootLayout({
           </ThemeProvider>
         </SessionProvider>
       </body>
+      <GoogleTagManager gtmId="AW-16486906194" />
     </html>
   );
 }
