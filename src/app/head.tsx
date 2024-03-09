@@ -2,11 +2,15 @@ export default function Head() {
   return (
     <>
       <title>
-      Play Next.js - SaaS Starter Kit and Boilerplate for Next.js
+      BlueOne Hospitality Management
       </title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="This SaaS Boilerplate and Starter Kit for Next.js is designed specifically for SaaS startups. It's a free resource complete with all the necessary integrations, pages, and components you require to build and launch a comprehensive SaaS website with robust features." />
+      <meta name="description" content="Making your hosting experience truly hands-off! Transform your Airbnb into a passive income machine." />
       <link rel="icon" href="/images/favicon.ico" />
+      <meta property="og:image" content="/images/Cover.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta name="twitter:image" content="/images/Cover.jpg" />
     </>
   );
 }
